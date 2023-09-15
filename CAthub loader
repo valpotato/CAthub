@@ -245,3 +245,39 @@ local Toggle = MainTab:CreateToggle({
      
    end,
 })
+
+local UpgardeTab = Window:CreateTab("🆙Upgarde", 4483362458) -- Title, Image
+local Section = UpgardeTab:CreateSection("Upgarde")
+
+local Button = UpgardeTab:CreateButton({
+   Name = "Accurac",
+   Callback = function()
+      local args = {
+         [1] = "Accuracy"
+     }
+     
+     game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
+   end,
+})
+
+local Button = UpgardeTab:CreateButton({
+   Name = "Speed",
+   Callback = function()
+      local args = {
+         [1] = "Speed"
+     }
+     
+     game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
+   end,
+})
+
+local Button = UpgardeTab:CreateButton({
+   Name = "Strength",
+   Callback = function()
+      local args = {
+         [1] = "Strength"
+     }
+     
+     game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
+   end,
+})
