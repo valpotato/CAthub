@@ -1,0 +1,247 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "👽CAthub|version V1.0 made by Maybe_01 on discord",
+   LoadingTitle = "uwu",
+   LoadingSubtitle = "by Maybe_01",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = fuck, -- Create a custom folder for your hub/game
+      FileName = "👽CAthub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "c9wPBRtvhk", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "👽CAthub",
+      Subtitle = "Key System",
+      Note = "key in discord!",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"CAthub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("🚜MainFarm", 4483362458) -- Title, Image
+local Section = MainTab:CreateSection("plane farm💲")
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 1 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-568.1176147460938, 101.61021423339844, 109.3265151977539),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(1) -- Wait for 1 second before the next iteration
+     end
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 2 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-760.0746459960938, 101.7370376586914, 103.17857360839844),
+             [2] = 0.9199999999999999
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.5 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 3 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-948.8236083984375, 101.8359375, 103.51957702636719),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 1 second before the next iteration
+     end
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 4 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-1327.980224609375, 101.95060729980469, 106.37429809570312),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.96 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 5 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-1514.34130859375, 101.51649475097656, 111.32962036132812),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 1 second before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 6 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-1703.030517578125, 102.02537536621094, 107.8644790649414),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.98 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 6 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-1892.999267578125, 101.77418518066406, 110.12152099609375),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 1 second before the next iteration
+     end
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 7 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-2079.56494140625, 102.83980560302734, 105.94467163085938),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.86 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 8 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-2270.543701171875, 104.60546875, 112.07959747314453),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.9 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "zone 9 farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-2459.255615234375, 101.82085418701172, 109.3866195678711),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.98 seconds before the next iteration
+     end
+     
+   end,
+})
+
+local Toggle = MainTab:CreateToggle({
+   Name = "last world farm",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      while true do
+         local args = {
+             [1] = Vector3.new(-2693.072021484375, 118.83274841308594, 117.8676986694336),
+             [2] = 1
+         }
+     
+         -- Execute the code
+         game:GetService("ReplicatedStorage").Remotes.ThrowPlane:FireServer(unpack(args))
+     
+         wait(0.5) -- Wait for 0.96 seconds before the next iteration
+     end
+     
+   end,
+})
