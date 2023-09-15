@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "👽CAthub|version V1.0 made by Maybe_01 on discord",
+   Name = "👽CAthub|version V1.1 made by Maybe_01 on discord",
    LoadingTitle = "uwu",
    LoadingSubtitle = "by Maybe_01",
    ConfigurationSaving = {
