@@ -1,0 +1,9 @@
+local id = game.PlaceId
+
+local supported = { 7849447103 }
+
+if table.find(supported, id) then
+    loadstring(game.HttpGet("https://raw.githubusercontent.com/valpotato/CAthub/main/CAthub%20loader"))()
+else
+  game.Players.LocalPlayer:Kick("not support game")
+end
